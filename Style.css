@@ -1,0 +1,133 @@
+body {
+  background: linear-gradient(rgb(12, 12, 12), rgb(88, 38, 84));
+  height: 100%;
+  margin: 0 0 0 0;
+  color: rgb(243, 243, 243);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+#OwAleeLogo{
+ color: rgb(175, 175, 175);
+ display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+
+#bellow-cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 1em 1em 1em;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.button-navigate {
+  font-size: 3.3em;
+
+}
+
+.button-biggest {
+  font-size: 5em;
+}
+
+.button-biggest:hover {
+  transform: scale(5cm);
+  transition: all 2s ease-in;
+
+}
+
+#cover {
+  width: 100%;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2em;
+  margin: 0.5em 0 3em 0;
+
+}
+
+#songname {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.light-color {
+  color: rgb(128, 126, 126)
+}
+
+#progressebar {
+  background-color: rgb(100, 100, 100);
+  height: 3.5px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#currentprogress {
+  --progress: 0%;
+  background-color: rgb(255, 255, 255);
+  height: inherit;
+  width: var(--progress);
+  border-radius: inherit;
+}
+
+#progresscontainer {
+  cursor: pointer;
+}
+
+.button-active {
+  color: rgb(100, 100, 100);
+}
+
+#time-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: 0.1cm;
+}
+#OwAlee {
+background: none;
+border: none;
+font-size: large;
+cursor: pointer;
+color: rgb(56, 56, 56);
+animation: mudancaDeCor 3s ease infinite;
+}
+
+@keyframes mudancaDeCor {
+0% {
+  color: rgb(75, 73, 73);
+}
+25% {
+  color: rgb(255, 255, 255);
+
+}}
